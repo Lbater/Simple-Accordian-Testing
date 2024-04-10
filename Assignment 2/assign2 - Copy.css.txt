@@ -1,0 +1,71 @@
+/* Author: Logan Bateman, 000918989 */
+
+header {
+	border-bottom: 0.25em solid black;
+	margin-bottom: 1em;
+}
+
+.box1 {
+	animation: background1 10s;
+	animation-iteration-count: infinite;
+	color: white;
+}
+
+.box2 {
+	animation: background2 10s;
+	animation-iteration-count: infinite;
+	color: white;
+}
+
+.box3 {
+	animation: background3 10s;
+	animation-iteration-count: infinite;
+	color: white;
+}
+
+.box4 {
+	animation: background4 10s;
+	animation-iteration-count: infinite;
+	background-color: green;
+	color: black;
+}
+
+@keyframes background1 {
+	0%{background-color: blue;}
+	50%{background-color: purple;}
+	75%{background-color: red;}
+	100%{background-color: blue;}
+}
+
+@keyframes background2 {
+	0%{background-color: red;}
+	50%{background-color: blue;}
+	75%{background-color: purple;}
+	100%{background-color: red;}
+}
+
+@keyframes background3 {
+	0%{background-color: purple;}
+	50%{background-color: red;}
+	75%{background-color: blue;}
+	100%{background-color: purple;}
+}
+
+@keyframes background4 {
+    0% { background-color: limegreen; }
+    25% { background-color: greenyellow; }
+    50% { background-color: yellowgreen; }
+    75% { background-color: yellow; }
+    100% { background-color: limegreen; }
+}
+
+	
+
+#fileFolders {
+	display: block;
+}
+
+footer {
+	border-top: 0.25em solid black;
+	margin-top: 1em;
+}
